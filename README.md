@@ -1,3 +1,3 @@
 # GoodNewsMVVM
 
-API URL : 
+API URL : https://newsapi.org
