@@ -14,6 +14,7 @@
 		6190F20424C5DE7C0049722B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6190F20224C5DE7C0049722B /* LaunchScreen.storyboard */; };
 		6190F20D24C5E35B0049722B /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6190F20C24C5E35B0049722B /* NewsListTableViewController.swift */; };
 		6190F21024C5E6E90049722B /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6190F20F24C5E6E90049722B /* WebService.swift */; };
+		6190F21324C5EB170049722B /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6190F21224C5EB170049722B /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		6190F20524C5DE7C0049722B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6190F20C24C5E35B0049722B /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
 		6190F20F24C5E6E90049722B /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		6190F21224C5EB170049722B /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		6190F1F624C5DE7A0049722B /* GoodNewsMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				6190F21124C5EB000049722B /* Models */,
 				6190F20E24C5E6A10049722B /* Services */,
 				6190F20B24C5E3450049722B /* Controllers */,
 				6190F1F724C5DE7A0049722B /* AppDelegate.swift */,
@@ -84,6 +87,14 @@
 				6190F20F24C5E6E90049722B /* WebService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		6190F21124C5EB000049722B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6190F21224C5EB170049722B /* Article.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 				6190F20D24C5E35B0049722B /* NewsListTableViewController.swift in Sources */,
 				6190F21024C5E6E90049722B /* WebService.swift in Sources */,
 				6190F1FA24C5DE7A0049722B /* SceneDelegate.swift in Sources */,
+				6190F21324C5EB170049722B /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
